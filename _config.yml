@@ -1,9 +1,18 @@
-layout_spectrum: 0.6944225400220603
-typography_spectrum: 0.5244109716732055
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
 color:
+  saturation: 0.110337104415521
   brandStrength: 0.101485057733953
-  lightness: 0.6654555955901742
-  saturation: 0.11033710441552103
   rhythmicContrast: 0.5466326207388192
   brandColors:
     - '#6C6E58'
@@ -11,4 +20,7 @@ color:
     - '#417378'
     - '#A4CFBE'
     - '#F4F7D9'
+  lightness: 0.6654555955901742
+typography_spectrum: 0
+layout_spectrum: 0.6944225400220603
 name: Sports Creative Taavetti Alin
